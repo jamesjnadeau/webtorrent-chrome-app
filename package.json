@@ -1,0 +1,41 @@
+{
+  "name": "torrent-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/.bin/webpack --progress --colors --watch -d",
+    "build": "node_modules/.bin/webpack --progress --colors -p -d"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-aria": "^1.4.8",
+    "angular-material": "^0.11.4",
+    "chrome-fs": "^10.0.0",
+    "chrome-net": "^3.0.1",
+    "clean-webpack-plugin": "^0.1.4",
+    "copy-webpack-plugin": "^0.3.3",
+    "css-loader": "^0.23.0",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "html-webpack-plugin": "^1.7.0",
+    "image-webpack-loader": "^1.6.2",
+    "imports-loader": "^0.6.5",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
+    "json-loader": "^0.5.4",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "loader-utils": "^0.2.12",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webtorrent": "^0.63.2"
+  }
+}
